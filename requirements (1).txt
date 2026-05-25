@@ -1,0 +1,18 @@
+# Campus Event Management Platform — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────────
+Flask==3.0.3
+Flask-Cors==4.0.1
+
+# ── Firebase Admin SDK ─────────────────────────
+firebase-admin==6.5.0
+
+# ── Environment & Config ───────────────────────
+python-dotenv==1.0.1
+
+# ── Production WSGI Server ─────────────────────
+gunicorn==22.0.0
+
+# ── Utilities ──────────────────────────────────
+requests==2.32.3
